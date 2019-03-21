@@ -46,7 +46,7 @@ $connectionString = "DefaultEndpointsProtocol=https;AccountName=storageqhiggs;Ac
 // Create blob client.
 $blobClient = BlobRestProxy::createBlobService($connectionString);
 
-$fileToUpload = $_GET['higgs'];
+$fileToUpload = $_FILES['uploadImage'];
 
 if (isset($_POST["tebak"])) {
     // Create container options object.
