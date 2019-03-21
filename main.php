@@ -90,11 +90,11 @@
 // require_once 'vendor/autoload.php';
 // require_once "./random_string.php";
 
-use MicrosoftAzure\Storage\Blob\BlobRestProxy;
-use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
-use MicrosoftAzure\Storage\Blob\Models\ListBlobsOptions;
-use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
-use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
+// use MicrosoftAzure\Storage\Blob\BlobRestProxy;
+// use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
+// use MicrosoftAzure\Storage\Blob\Models\ListBlobsOptions;
+// use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
+// use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
 
 $connectionString = "DefaultEndpointsProtocol=https;AccountName=storageqhiggs;AccountKey=q23XqhbjfQDWOzaxWit2UrqIg1Zwlmh8DZ3iICAPr87oEwUI8xXbzb6Pw++NhVTjeHnh5ohkAqHLLHQPcnM7EA==;EndpointSuffix=core.windows.net");
 
